@@ -5,7 +5,8 @@ import {
   Settings, 
   Users, 
   FileText,
-  BarChart
+  BarChart,
+  Bot
 } from "lucide-react"
 
 const routes = [
@@ -28,6 +29,11 @@ const routes = [
     label: 'Documents',
     icon: FileText,
     href: '/documents',
+  },
+  {
+    label: 'Agents',
+    icon: Bot,
+    href: '/agents',
   },
   {
     label: 'Settings',
