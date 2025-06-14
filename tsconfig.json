@@ -2,5 +2,21 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apps/scraper"
+    },
+    {
+      "path": "./apps/backoffice-e2e"
+    },
+    {
+      "path": "./apps/backoffice"
+    },
+    {
+      "path": "./packages/agents"
+    },
+    {
+      "path": "./packages/agents"
+    }
+  ]
 }
